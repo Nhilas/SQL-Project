@@ -22,3 +22,28 @@ Create Database IC;
     Brand_ID INT,
     PRIMARY KEY (Item_ID)
   );
+  
+Create Database PriA;
+
+  Create Table PR_PRICE
+  (
+    Item_ID INT,
+    Price_Date DATE,
+    Price_Value FLOAT,
+    PRIMARY KEY (Item_ID, Price_Date)
+  );
+  
+Create Database ProA;
+
+  Create Table PA_ITEM
+  (
+    Item_ID INT,
+    Item_Name VARCHAR(100),
+    Item_Desc VARCHAR(1000),
+    Brand_ID INT,
+    Brand_Name VARCHAR(100),
+    Cat_ID INT,
+    Cat_Name VARCHAR(100),
+    Price_Date DATE,
+    Price_Value FLOAT
+  );
