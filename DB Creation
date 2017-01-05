@@ -1,5 +1,7 @@
 Create Database IC;
 
+USE IC;
+
   Create Table IC_CATEGORY
   (
     Cat_ID INT,
@@ -25,6 +27,8 @@ Create Database IC;
   
 Create Database PriA;
 
+USE PriA;
+
   Create Table PR_PRICE
   (
     Item_ID INT,
@@ -34,6 +38,8 @@ Create Database PriA;
   );
   
 Create Database ProA;
+
+USE ProA;
 
   Create Table PA_ITEM
   (
