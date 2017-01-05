@@ -51,5 +51,6 @@ USE ProA;
     Cat_ID INT,
     Cat_Name VARCHAR(100),
     Price_Date DATE,
-    Price_Value FLOAT
+    Price_Value FLOAT,
+    PRIMARY KEY (Item_ID)
   );
